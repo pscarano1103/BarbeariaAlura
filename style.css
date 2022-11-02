@@ -208,6 +208,12 @@ th {
 
 .imagemBeneficios {
   width: 50%;
+  opacity: 1;
+  transition: 400ms;
+}
+
+.imagemBeneficios:hover {
+  opacity: 0.3;
 }
 
 .utencilios {
