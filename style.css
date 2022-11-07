@@ -141,7 +141,7 @@ form legend {
 }
 
 table {
-  margin: 20px 40px;
+  margin: 20px 40px 40px 40px;
 }
 
 thead {
@@ -248,14 +248,24 @@ th {
   .video {
     width: 90%;
   }
-}
-@media screen and (max-width: 480px) {
-  .caixa,
-  .principal,
-  .conteudo-beneficios {
-    width: auto;
+
+  .produtos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
   }
 
+  .produtos li {
+    width: 55%;
+  }
+
+  form{
+    margin: 40px 0 0 0;
+  }
+  
+}
+@media screen and (max-width: 480px) {
   .mapa-conteudo,
   .video {
     width: 90%;
